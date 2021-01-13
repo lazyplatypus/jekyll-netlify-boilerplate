@@ -80,7 +80,10 @@ code {
 
 input,
 textarea {
-	border: 0.05em solid $hairline-color;
+	height:100%;
+	padding: 0.8em;
+	border-radius: 3px;
+	// border: 0.05em solid $hairline-color;
 	&:focus {
 		border: 0.05em solid $text-color;
 	}
@@ -93,5 +96,5 @@ textarea {
 }
 
 button {
-	@include button($link-color, $text-color-negative);
+	@include button(#e0115f, $text-color-negative);
 }

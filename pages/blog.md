@@ -1,11 +1,11 @@
 ---
 layout: blog
-title: The Blog
+title: Talks
 permalink: /blog
 section: blog
-intro_paragraph: >
-  This is the Blog index page, listing each post with an
-  automatically generated post excerpt. It's a normal Jekyll page but uses
-  the `_layouts/blog.html` template to output the blog's posts after the page
-  content.
+intro_paragraph: |-
+  #### Next Release: Release v.01
+
+  * **Release Party**: Jan 28th, 2020 12pm PST on **RubyGalaxy Twitch**
+  * **Release URL**: rubygalaxy.io/0.1
 ---

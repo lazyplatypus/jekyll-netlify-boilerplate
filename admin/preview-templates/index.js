@@ -1,8 +1,8 @@
 import Post from "/admin/preview-templates/post.js";
 import Page from "/admin/preview-templates/page.js";
 
-// Register the Post component as the preview for entries in the blog collection
-CMS.registerPreviewTemplate("blog", Post);
+// Register the Post component as the preview for entries in the Talks collection
+CMS.registerPreviewTemplate("Talks", Post);
 CMS.registerPreviewTemplate("pages", Page);
 
 CMS.registerPreviewStyle("/assets/main.css");

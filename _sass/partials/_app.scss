@@ -15,6 +15,11 @@ body {
     [full-start] minmax(1rem, 1fr)
     [main-start] minmax(0, 52rem) [main-end]
     minmax(1rem, 1fr) [full-end];
+    background: rgb(14,23,42);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url(/assets/img/background.jpg);
 }
 
 // by default, make any new children of body to span the full track

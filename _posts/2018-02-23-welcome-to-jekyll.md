@@ -3,7 +3,7 @@ layout: post
 title: Trapped in the Jekyll-Space Continuum
 meta_description: A description may also be set in a post. You can find more
   information about it in pages/about.md.
-author: john_doe
+author: Danny Ramos
 date: 2021-01-14 19:37:44
 intro_paragraph: ""
 categories: v0.1

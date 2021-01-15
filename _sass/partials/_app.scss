@@ -121,12 +121,27 @@ main {
 
 // Talks posts list
 html[data-current="Talks"] main > section {
-  ul li {
-    padding: 2rem 0;
-    border-bottom: 0.05em solid $hairline-color;
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    // border-bottom: 0.05em solid $hairline-color;
     p {
       padding-bottom: 0;
     }
+
+  }
+  li {
+    color: #fff !important;
+    padding: 2rem;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  li:hover {
+    background-color:rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -185,4 +200,15 @@ footer {
   > small {
     grid-column: main;
   }
+}
+
+ul.twocolumns {
+  display: inline-block;
+}
+
+ul.twocolumns li {
+  padding-top: 20px;
+  float: left;
+  list-style: outside none none;
+  width: 50%;
 }

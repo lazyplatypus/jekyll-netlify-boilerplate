@@ -128,3 +128,17 @@ button {
 		width:100%;
 	}
 } 
+
+.sponsors {
+	display:flex;
+	justify-content: space-between;
+}
+.sponsorlogo {
+	width:100px;
+	opacity: 0.7;
+}
+
+.sponsorlogo:hover {
+	width:100px;
+	opacity: 1.0;
+}

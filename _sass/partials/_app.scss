@@ -16,10 +16,6 @@ body {
     [main-start] minmax(0, 52rem) [main-end]
     minmax(1rem, 1fr) [full-end];
     background: rgb(14,23,42);
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background-image: url(/assets/img/background.jpg);
 }
 
 // by default, make any new children of body to span the full track
@@ -33,7 +29,7 @@ body > * {
 header {
   grid-column: full;
   display: grid;
-  background-color: $brand-color;
+  background-color: #0e172a;
   padding: 2rem;
   @media screen and (min-width: $screen-sm-min) {
     grid-template-columns: 1fr auto;
@@ -190,16 +186,9 @@ html[data-current="contact"] main > form {
 }
 
 footer {
-  grid-column: full;
-  display: grid;
-  grid-template-columns:
-    [full-start] minmax(1rem, 1fr)
-    [main-start] minmax(0, 50rem) [main-end]
-    minmax(1rem, 1fr) [full-end];
-  background-color: $grey-bg-color;
-  > small {
-    grid-column: main;
-  }
+  text-align: center;
+  background-color: #000;
+
 }
 
 ul.twocolumns {
